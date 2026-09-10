@@ -1,0 +1,3 @@
+﻿export const theme = {
+  colors: { bg: "#0f1115", fg: "#eaeaea", accent: "#ff7b54" },
+};

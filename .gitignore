@@ -1,0 +1,49 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+coverage/
+
+# IDE / OS
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data
+*.csv
+*.nc
+*.hdf
+*.h5
+*.tif
+*.tiff
+*.grib
+*.grib2
+*.zarr
+*.parquet
+*.feather
+*.sqlite
+*.db
+
+# Models
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# Logs
+*.log
