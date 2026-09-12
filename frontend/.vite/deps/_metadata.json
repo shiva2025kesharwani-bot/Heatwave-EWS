@@ -2,64 +2,73 @@
   "hash": "70c81544",
   "configHash": "ddefb3e3",
   "lockfileHash": "947b30f3",
-  "browserHash": "a22d04d0",
+  "browserHash": "3209e03b",
   "optimized": {
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "0194296c",
+      "fileHash": "ccf58624",
       "needsInterop": true
     },
     "react-dom": {
       "src": "../../node_modules/react-dom/index.js",
       "file": "react-dom.js",
-      "fileHash": "7f177841",
+      "fileHash": "b3dc52da",
       "needsInterop": true
     },
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "b7300090",
+      "fileHash": "204b4697",
       "needsInterop": true
     },
     "react/jsx-runtime": {
       "src": "../../node_modules/react/jsx-runtime.js",
       "file": "react_jsx-runtime.js",
-      "fileHash": "a1063fac",
+      "fileHash": "81d48d70",
       "needsInterop": true
     },
     "axios": {
       "src": "../../node_modules/axios/index.js",
       "file": "axios.js",
-      "fileHash": "5b6c92a0",
+      "fileHash": "039ccd4a",
       "needsInterop": false
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "9230c819",
+      "fileHash": "0f4ad507",
       "needsInterop": true
     },
     "react-leaflet": {
       "src": "../../node_modules/react-leaflet/lib/index.js",
       "file": "react-leaflet.js",
-      "fileHash": "f3f43647",
+      "fileHash": "2973fc3a",
       "needsInterop": false
     },
     "react-router-dom": {
       "src": "../../node_modules/react-router-dom/dist/index.js",
       "file": "react-router-dom.js",
-      "fileHash": "9b799bbe",
+      "fileHash": "fcd510ef",
       "needsInterop": false
     },
     "recharts": {
       "src": "../../node_modules/recharts/es6/index.js",
       "file": "recharts.js",
-      "fileHash": "57b2b994",
+      "fileHash": "b16b2a80",
       "needsInterop": false
+    },
+    "leaflet": {
+      "src": "../../node_modules/leaflet/dist/leaflet-src.js",
+      "file": "leaflet.js",
+      "fileHash": "2a8cee0e",
+      "needsInterop": true
     }
   },
   "chunks": {
+    "chunk-GKVACACG": {
+      "file": "chunk-GKVACACG.js"
+    },
     "chunk-LER6W43O": {
       "file": "chunk-LER6W43O.js"
     },

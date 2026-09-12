@@ -1,4 +1,4 @@
-﻿"""FastAPI application entry point."""
+"""FastAPI application entry point."""
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
@@ -18,19 +18,17 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.CORS_ORIGINS,
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 app.include_router(api_router, prefix=settings.API_V1_PREFIX)
 
-
 @app.get("/")
 def root():
     return {"service": "heatwave-ews", "docs": "/docs"}
-
 
 @app.exception_handler(Exception)
 async def unhandled(request, exc):
