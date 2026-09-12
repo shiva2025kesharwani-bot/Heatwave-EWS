@@ -8,7 +8,9 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.9
-      - key: DATABASE_URL
-        value: postgresql://heatwave:heatwave@localhost:5432/heatwave
       - key: ENVIRONMENT
         value: production
+      - key: API_V1_PREFIX
+        value: /api/v1
+      - key: CORS_ORIGINS
+        value: '["*"]'
